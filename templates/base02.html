@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'base02.css') }}">
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+
+    {% block navbar %}
+    <nav>
+        <a href="homePage.html">Home Page</a>
+        <a href="contato.html">Contato</a>
+        <a href="produtos.html">Produtos</a>
+    </nav>
+    {% endblock %}
+
+    {% block content %} 
+    {% endblock %}
+
+    {% block footer %}
+        <footer>
+            <div class="foot">
+                <a href="/templates/comoUtilizar.html">Como Utilizar</a>                  
+                <a href="/templates/politicaPrivacidade.html">Política de Privacidade</a>    
+                <a href="/templates/termosDeUso.html">Termos de Uso</a>  
+            </div>            
+        </footer>
+    {% endblock %}
+
+</body>
+</html>

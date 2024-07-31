@@ -1,0 +1,36 @@
+body{
+    background-color: #8c8c8c;
+    color: white;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.foot a{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
