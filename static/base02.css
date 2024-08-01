@@ -5,6 +5,33 @@ body{
 }
 
 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 20px;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;    
+    font-size: 26px;
+}
+
+.navbar {
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.navbar a{
+    margin: 70px;
+}
+
+h2{
     color: white;
     font-size: 26px;
     display: flex;
@@ -25,12 +52,22 @@ footer {
 
 .foot{
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    margin: 10px auto
 }
 
 .foot a{
+    margin: 15px;
+}
+
+.line-developed{
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+
+.line-developed h3{
+    margin: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }

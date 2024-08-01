@@ -10,24 +10,16 @@
 <body>
 
     {% block navbar %}
-    <nav>
-        <a href="homePage.html">Home Page</a>
-        <a href="contato.html">Contato</a>
-        <a href="produtos.html">Produtos</a>
-    </nav>
+    
     {% endblock %}
 
     {% block content %} 
     {% endblock %}
 
+    {% block developed %}
+    {% endblock %}
+
     {% block footer %}
-        <footer>
-            <div class="foot">
-                <a href="/templates/comoUtilizar.html">Como Utilizar</a>                  
-                <a href="/templates/politicaPrivacidade.html">Política de Privacidade</a>    
-                <a href="/templates/termosDeUso.html">Termos de Uso</a>  
-            </div>            
-        </footer>
     {% endblock %}
 
 </body>
