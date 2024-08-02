@@ -9,9 +9,13 @@
 </head>
 <body>
 
-    {% block navbar %}
-    
-    {% endblock %}
+    <nav>
+        <div class="navbar">
+            <a href="/">Home Page</a>
+            <a href="/contato">Contato</a>
+            <a href="/produtos">Produtos</a>
+        </div>            
+    </nav>
 
     {% block content %} 
     {% endblock %}
@@ -19,8 +23,18 @@
     {% block developed %}
     {% endblock %}
 
-    {% block footer %}
-    {% endblock %}
+    <div>
+        <hr>
+        <br>
+        <h3>Desenvolvido por Arthur Lessa, 2024</h3>
+    </div>
+    <footer>            
+        <div class="foot">                
+            <a href="/como-utilizar">Como Utilizar</a>                  
+            <a href="/politica-de-privacidade">Política de Privacidade</a>    
+            <a href="/termos-de-uso">Termos de Uso</a>  
+        </div>            
+    </footer>
 
 </body>
 </html>

@@ -1,7 +1,16 @@
 body{
-    background-color: #8c8c8c;
-    color: black;
+    background-color: #76993d;
+    color: white;
     justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
 }
 
 h2{
@@ -14,25 +23,11 @@ h2{
 p{
     color: black;
     display: flex;
-    justify-content: center;
-    font-weight: 300;
-}
-
-footer {
     font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.foot{
-    display: flex;
+    font-weight: 300;
+    width: 70%;
+    align-items: center;
     justify-content: center;
-    justify-content: space-between;
-}
-
-.foot a{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+    margin: 20px auto;
 }
 

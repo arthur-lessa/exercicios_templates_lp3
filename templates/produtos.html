@@ -6,8 +6,28 @@
 </head>
 <body>
 
-    {% block navbar %} {% endblock %}
+    {% block content %} 
+        {% if produtos %}
+            <div class = "welcome"> 
+                <h1>Produtos</h1>
+            <p>Estes são nossos produtos!!</p>
+            </div>
+            {% for produto in produtos %}
+            <div class = "welcome">
+                <img src="{{url_for('static',filename='/imagens/'+ produto.img +'.PNG')}}" width="300px" alt="" id="f1" class="foto-produto">    
+                <h2>{{ produto.nome }}</h2>
+                <p>{{ produto.descricao }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class = "welcome"> 
+                <h1>Produtos</h1>
+            <p>Aguarde o lançamento dos produtos.</p>
+        {% endif %}   
+    
+    {% endblock %}  
 
-    {% block content %} {% endblock %}  
+    
 </body>
 </html>
+

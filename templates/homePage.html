@@ -4,36 +4,15 @@
 
 <body>
 
-    {% block navbar %} 
-        <nav>
-            <div class="navbar">
-                <a href="homePage.html">Home Page</a>
-                <a href="contato.html">Contato</a>
-                <a href="produtos.html">Produtos</a>
-            </div>            
-        </nav>
-    {% endblock %}
-
-    <br>
-
     {% block content %}
-        <h2>Home</h2>
-        <img src="" alt="">
-    {% endblock %}
-
-    <hr>
-
-    {% block footer %} 
-        <div class="line-developed">
-            <h3>Desenvolvido por Arthur Lessa, 2024</h3>
+        <div class="welcome">
+            <h1>Home</h1>
+            <p>É com grande entusiasmo que recebemos você em nossa loja online, um espaço dedicado a oferecer o melhor em produtos naturais e orgânicos. Aqui, você encontrará uma seleção cuidadosamente escolhida de alimentos frescos, produtos de beleza e suplementos alimentares.</p>
+            <p>Explore nossas categorias para descobrir alimentos orgânicos de alta qualidade, produtos de beleza feitos com ingredientes naturais e suplementos que promovem uma vida saudável. Nossa interface foi projetada para proporcionar uma experiência de navegação simples e agradável.</p>
+            <p>Seja você um entusiasta da saúde ou alguém em busca de opções naturais para seu dia a dia, esperamos que nossa loja seja uma fonte de inspiração e bem-estar. Sinta-se à vontade para explorar nossos produtos e encontrar o que melhor se adapta às suas necessidades.</p>
+            <p>Obrigado por visitar nossa loja! Estamos ansiosos para que você descubra tudo o que oferecemos e aproveite ao máximo os benefícios dos nossos produtos naturais e orgânicos. Se tiver dúvidas ou precisar de assistência, não hesite em nos contatar através das opções disponíveis em nosso site.</p>
         </div>
-        <footer>            
-            <div class="foot">                
-                <a href="/templates/comoUtilizar.html">Como Utilizar</a>                  
-                <a href="/templates/politicaPrivacidade.html">Política de Privacidade</a>    
-                <a href="/templates/termosDeUso.html">Termos de Uso</a>  
-            </div>            
-        </footer>
     {% endblock %}
+
 </body>
 </html>
